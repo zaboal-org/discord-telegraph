@@ -6,9 +6,7 @@ import (
 )
 
 // Token — an authorization token to Discord API for bots
-var (
-	Token string
-)
+var Token string
 
 // Retrieve the passed arguments on run
 func init() {
@@ -19,3 +17,5 @@ func init() {
 func main() {
 	log.Println("Got the token:", Token)
 }
+
+// TODO: Create and register an interaction command that creates an account on Telegraph

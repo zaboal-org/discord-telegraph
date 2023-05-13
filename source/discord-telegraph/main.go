@@ -5,10 +5,10 @@ import (
 	"log"
 )
 
-// Token — an authorization token to Discord API for bots
+// Token — токен авторизации к АПИ Дискорда для ботов
 var Token string
 
-// Retrieve the passed arguments on run
+// Получение аргументов к запуску
 func init() {
 	flag.StringVar(&Token, "token", "", "Authorization token to Discord API for bots")
 	flag.Parse()
@@ -18,4 +18,4 @@ func main() {
 	log.Println("Got the token:", Token)
 }
 
-// TODO: Create and register an interaction command that creates an account on Telegraph
+// TODO: Создать и зарегстрировать команду, которая регистрирует аккаунт на Телеграфе. Здесь нужна ключ-значение БД.

@@ -1,5 +1,3 @@
-*The official instance runs with ID https://discord.com/users/1106701151774199858[`1106701151774199858`].*
+*The official test instance periodically runs with ID https://discord.com/users/1106701151774199858[`1106701151774199858`].*
 
-As the project is proposed for international use, *all the abouts and all the interfaces must be in English*, but the
-project itself is developed by a Russian organization, so the *in-code commentaries and commits must be in Russian* to not
-obscure the development process. Read more at link:contributing.adoc[`contributing.adoc`].
+*all the abouts and all the interfaces must be in English*, as the project is proposed for international use, but the project itself is developed by a Russian organization, so the *in-code commentaries and commits must be in Russian* to not obscure the development process. Read more at link:contributing.adoc[`contributing.adoc`].

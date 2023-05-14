@@ -18,7 +18,7 @@ jobs:
         go-version: 1.19
 
     - name: Установка зависимостей
-      run: go get
+      run: go get source
 
     - name: Компиляция
-      run: go build -v ./...
+      run: go build -v source

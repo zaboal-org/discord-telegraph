@@ -5,6 +5,10 @@ name: Компиляция проекта
 
 on: release
 
+defaults:
+  run:
+    working-directory: source
+
 jobs:
 
   build:
@@ -21,7 +25,7 @@ jobs:
       run: ls -a
 
     - name: Установка зависимостей
-      run: go get source
+      run: go get
 
     - name: Компиляция
-      run: go build -v source
+      run: go build -v

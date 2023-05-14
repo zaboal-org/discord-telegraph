@@ -17,6 +17,9 @@ jobs:
       with:
         go-version: 1.19
 
+    - name: Вывод текущей директории
+      run: ls -a
+
     - name: Установка зависимостей
       run: go get source
 

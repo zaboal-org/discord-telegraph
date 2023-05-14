@@ -1,0 +1,2 @@
+**Note for non-russians**: if you don't speak Russian and want to contribute — leave your voice to change the primary language of the project on 
+the [#1](https://github.com/zaboal-org/discord-telegraph/issues/1) issue on GitHub.
